@@ -1,0 +1,6 @@
+# chore
+.mypy_cache
+__pycache__
+
+# credential
+.env

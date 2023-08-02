@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+openai = "*"
+numpy = "*"
+python-dotenv = "*"
+matplotlib = "*"
+plotly = "*"
+pandas = "*"
+scipy = "*"
+scikit-learn = "*"
+
+[dev-packages]
+mypy = "*"
+bandit = "*"
+
+[requires]
+python_version = "3.9"
